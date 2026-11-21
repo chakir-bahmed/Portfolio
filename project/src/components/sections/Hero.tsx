@@ -12,17 +12,13 @@ export function Hero() {
   };
 
   const downloadResume = () => {
-    const blob = new Blob(
-      [`Chakir Bahmed\nData Science & AI Engineer\nCasablanca, Morocco\n${personal.email} | ${personal.phone}\n\n${personal.summary}\n\nProjects: ${['Chess Analytics & AI Platform', 'AI Chatbot Assistant (RAG + LLMs)', 'Credit Risk Analysis', 'USA Road Accident Analytics'].join(', ')}\n\nSkills: Python, SQL, Pandas, NumPy, Scikit-Learn, LangChain, ChromaDB, FastAPI, OpenAI API, DuckDB, Matplotlib, Seaborn, Git, MySQL, PostgreSQL\n\nEducation: Master ISI - Data Science (Hassan II University, 2025-2027), Bachelor in Computer Science (Hassan II University, 2022-2025)\n\nCertifications: Rapid Application Development with LLMs (NVIDIA, Oct 2026), Data Science Certification (EISTA, Aug 2024)`],
-      { type: 'text/plain' }
-    );
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'Chakir_Bahmed_Resume.txt';
-    a.click();
-    URL.revokeObjectURL(url);
-  };
+  const link = document.createElement('a');
+  link.href = '/Chakir_Bahmed_Resume.pdf';
+  link.download = 'Chakir_Bahmed_Resume.pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
 
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-24 pb-12 overflow-hidden">
@@ -52,9 +48,9 @@ export function Hero() {
               className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight"
             >
               Hi, I'm{' '}
-              <span className="gradient-text">Chakir</span>
+              <span className="gradient-text">CHAKIR</span>
               <br />
-              <span className="gradient-text">Bahmed</span>
+              <span className="gradient-text">BAHMED</span>
             </motion.h1>
 
             <motion.div
@@ -142,12 +138,14 @@ export function Hero() {
                 className="absolute inset-4 rounded-full border border-primary/20"
               />
 
-              {/* Profile circle */}
-              <div className="absolute inset-8 rounded-full overflow-hidden glass p-1">
-                <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/30 to-accent/30 flex items-center justify-center text-7xl font-bold gradient-text">
-                  CB
-                </div>
-              </div>
+{/* Profile Image */}
+<div className="absolute inset-8 rounded-full overflow-hidden glass p-1">
+  <img
+    src="/favicon.jpg"
+    alt="BAHMED CHAKIR"
+    className="w-full h-full rounded-full object-cover object-center hover:scale-105 transition-transform duration-500"
+  />
+</div>
 
               {/* Floating badges */}
               <motion.div

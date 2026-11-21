@@ -227,57 +227,52 @@ export const education = [
 
 export const certifications = [
   {
-    title: 'Rapid Application Development with Large Language Models (LLMs)',
-    provider: 'NVIDIA',
-    date: 'October 2026',
-    description:
-      'Building AI applications rapidly using Large Language Models and Generative AI techniques.',
-    credentialId: 'm06Ls3-rERc35UZFkrXKvM_Q',
-    credentialUrl: 'https://learn.nvidia.com/certificates',
-  },
-  {
     title: 'Building RAG Agents with LLMs',
     provider: 'NVIDIA',
-    date: 'août 2026',
-    description:
-      'Specialized training in Retrieval-Augmented Generation (RAG), vector databases, and LLMOps.',
-    credentialId: 'YOUR_CREDENTIAL_ID',
-    credentialUrl: 'https://learn.nvidia.com/certificates/YOUR_LINK',
+    logo: 'nvidia',
+    date: 'October 2026',
+    description: 'Specialized training in Retrieval-Augmented Generation (RAG), vector databases, and LLMOps.',
+    credentialUrl: 'https://learn.nvidia.com/certificates?id=PMpemRkTRtWf7FGab0ezhA',
+  },
+
+   {
+    title: 'Rapid Application Development with Large Language Models (LLMs)',
+    provider: 'NVIDIA',
+    logo: 'nvidia',
+    date: 'October 2026',
+    description: 'Building AI applications rapidly using Large Language Models and Generative AI techniques.',
+    credentialUrl: 'https://learn.nvidia.com/certificates?id=DaaTMkEET32UF9MHbibzWg#',
   },
 
   {
     title: 'Building RAG Apps Using MongoDB',
     provider: 'MongoDB',
-    date: 'November 2026',
-    description:
-      'Learned to build Retrieval-Augmented Generation applications using MongoDB and vector search.',
-    credentialId: 'YOUR_CREDENTIAL_ID',
-    credentialUrl: 'https://learn.mongodb.com/YOUR_LINK',
+    logo: 'mongodb',
+    date: 'October 2026',
+    description: 'Learned to build Retrieval-Augmented Generation applications using MongoDB and vector search.',
+    credentialUrl: 'https://www.credly.com/badges/eebba284-3e73-4ad9-b1e4-40eef411deb7',
   },
-  
-  
+
 
   {
     title: 'Advanced SQL',
     provider: 'Kaggle',
+    logo: 'kaggle',
     date: 'November 2026',
-    description:
-      'Advanced SQL techniques including JOINs, CTEs, Window Functions, and Query Optimization.',
-    credentialId: 'YOUR_CREDENTIAL_ID',
-    credentialUrl: 'https://www.kaggle.com/learn/certification/YOUR_USERNAME/advanced-sql',
+    description: 'Advanced SQL techniques including JOINs, CTEs, Window Functions, and Query Optimization.',
+    credentialUrl: 'https://www.kaggle.com/learn/certification/chakirbahmed/advanced-sql',
   },
 
   {
     title: 'Intro to Machine Learning',
     provider: 'Kaggle',
+    logo: 'kaggle',
     date: 'November 2026',
-    description:
-      'Introduction to machine learning, feature engineering, model training, and evaluation.',
-    credentialId: 'YOUR_CREDENTIAL_ID',
-    credentialUrl: 'https://www.kaggle.com/learn/certification/YOUR_USERNAME/intro-to-machine-learning',
+    description: 'Introduction to machine learning, feature engineering, model training, and evaluation.',
+    credentialUrl: 'https://www.kaggle.com/learn/certification/chakirbahmed/intro-to-machine-learning',
   },
 
-  
+ 
 ];
 
 export const achievements = [

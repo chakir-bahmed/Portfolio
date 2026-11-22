@@ -197,6 +197,8 @@ export const projects = [
     demo: 'https://github.com/chakir-bahmed',
     gradient: 'from-amber-600 to-rose-500',
     icon: 'MapPin',
+    video: '/demo/demo_acc_usa.mp4',
+
   },
 ];
 

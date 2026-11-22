@@ -159,6 +159,7 @@ export const projects = [
     demo: 'https://github.com/chakir-bahmed',
     gradient: 'from-blue-600 to-cyan-500',
     icon: 'Cpu',
+    video: '/demo/ChessStatsDemo.mp4',
   },
   {
     title: 'AI Chatbot Assistant (RAG + LLMs)',
@@ -171,6 +172,7 @@ export const projects = [
     demo: 'https://github.com/chakir-bahmed',
     gradient: 'from-violet-600 to-blue-500',
     icon: 'Bot',
+    
   },
   {
     title: 'Credit Risk Analysis',

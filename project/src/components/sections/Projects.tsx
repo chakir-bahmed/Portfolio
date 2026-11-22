@@ -66,14 +66,27 @@ export function Projects() {
 
                   {/* Banner */}
                   <div className={`h-48 bg-gradient-to-br ${project.gradient} relative overflow-hidden`}>
-                    <div className="absolute inset-0 grid-pattern opacity-20" />
-                    <motion.div
-                      animate={{ scale: [1, 1.1, 1] }}
-                      transition={{ duration: 8, repeat: Infinity }}
-                      className="absolute inset-0 flex items-center justify-center"
-                    >
-                      <Icon className="w-20 h-20 text-white/30" />
-                    </motion.div>
+
+                    {project.video ? (
+                      <video
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        className="w-full h-full object-cover"
+                      >
+                        <source src={project.video} type="video/mp4" />
+                      </video>
+                    ) : (
+                      <motion.div
+                        animate={{ scale: [1, 1.1, 1] }}
+                        transition={{ duration: 8, repeat: Infinity }}
+                        className="absolute inset-0 flex items-center justify-center"
+                      >
+                        <Icon className="w-20 h-20 text-white/30" />
+                      </motion.div>
+                    )}
+
                     <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-bg to-transparent" />
                   </div>
 

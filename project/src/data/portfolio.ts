@@ -155,8 +155,8 @@ export const projects = [
     description:
       'A full-scale analytics platform processing 500,000+ chess games and 670,000+ players. Built a data pipeline generating 20+ key performance indicators and machine learning models for match outcome prediction, exposed through REST APIs.',
     tech: ['Python', 'Pandas', 'DuckDB', 'SQL', 'FastAPI', 'XGBoost'],
-    github: 'https://github.com/chakir-bahmed',
-    demo: 'https://github.com/chakir-bahmed',
+    github: 'https://github.com/chakir-bahmed/ChessStats',
+    demo: 'https://chakir-pi.vercel.app/',
     gradient: 'from-blue-600 to-cyan-500',
     icon: 'Cpu',
     video: '/demo/ChessStatsDemo.mp4',
@@ -193,8 +193,8 @@ export const projects = [
     description:
       'Analyzed 7 million+ road accidents to identify key risk factors including weather, traffic, and environmental conditions. Developed predictive models to estimate accident severity and improve decision-making.',
     tech: ['Python', 'Pandas', 'Scikit-Learn', 'SQL', 'Seaborn'],
-    github: 'https://github.com/chakir-bahmed',
-    demo: 'https://github.com/chakir-bahmed',
+    github: 'https://github.com/chakir-bahmed/us-accidents-dashboard',
+    demo: 'https://chakir-bahmed.streamlit.app/',
     gradient: 'from-amber-600 to-rose-500',
     icon: 'MapPin',
     video: '/demo/demo_acc_usa.mp4',

@@ -168,11 +168,12 @@ export const projects = [
     description:
       'An intelligent assistant built with Retrieval-Augmented Generation, integrating 100+ documents with large language models. Improved contextual retrieval, search relevance, and answer precision for complex queries.',
     tech: ['Python', 'LangChain', 'ChromaDB', 'OpenAI API', 'FastAPI'],
-    github: 'https://github.com/chakir-bahmed',
-    demo: 'https://github.com/chakir-bahmed',
+    github: 'https://github.com/chakir-bahmed/AI-RAG-Assistant-Chatbot',
+    demo: 'https://client-mu-nine-40.vercel.app/',
     gradient: 'from-violet-600 to-blue-500',
     icon: 'Bot',
-    
+    video: '/demo/synora.mp4',
+
   },
   {
     title: 'Credit Risk Analysis',
